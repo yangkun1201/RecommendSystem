@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.17" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-spark_2.10-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-spark_2.10-0.13.0-dependency-reduced.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-native-viennacl_2.10-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-native-viennacl-omp_2.10-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-mr-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-mr-0.13.0-job.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-math-scala_2.10-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-math-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-integration-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-hdfs-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-examples-0.13.0.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-examples-0.13.0-job.jar!/" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/docs/mahout-examples" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/docs/mahout-hdfs" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/docs/mahout-integration" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/docs/mahout-math" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/docs/mahout-mr" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-mr-0.13.0-job.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-examples-0.13.0-job.jar!/" />
+          <root url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
