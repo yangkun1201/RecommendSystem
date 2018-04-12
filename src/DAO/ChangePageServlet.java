@@ -26,7 +26,7 @@ public class ChangePageServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+}
 
     public static int getPage(){
         return index;

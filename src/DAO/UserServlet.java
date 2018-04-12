@@ -43,8 +43,8 @@ public class UserServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
-		out.println("<h1>ע��ɹ�</h1>");
-		System.out.println("ע��ɹ�");
+		//out.println("<h1>ע��ɹ�</h1>");
+		//System.out.println("ע��ɹ�");
 		
 		User user = new User();
 		String username = request.getParameter("username");
@@ -57,11 +57,11 @@ public class UserServlet extends HttpServlet {
 		String profession = request.getParameter("profession");
 		String[] hobbys = request.getParameterValues("hobby");
 		StringBuilder hbs = new StringBuilder();
-		System.out.println(username+" "+password+" "+hometown
-				+" "+gender+" "+birthday+" "+gender+" "+
-				email+" "+phonenumber+" "+profession);
+		//System.out.println(username+" "+password+" "+hometown
+				//+" "+gender+" "+birthday+" "+gender+" "+
+				//email+" "+phonenumber+" "+profession);
 		for(int i=0;i<hobbys.length;i++){
-			System.out.println(hobbys[i]+" ");
+			//System.out.println(hobbys[i]+" ");
 			hbs.append(hobbys[i]+",");
 		}
 		

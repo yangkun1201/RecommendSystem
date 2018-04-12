@@ -59,7 +59,7 @@ public class loginServlet extends HttpServlet {
 			ResultSet rs = ps.executeQuery();
 			while(rs.next()){
 				passwd = rs.getString("password");
-				System.out.println(passwd);
+				//System.out.println(passwd);
 			}
 			
 			if(passwd.equals(password)){

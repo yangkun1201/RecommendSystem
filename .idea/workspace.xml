@@ -6,7 +6,139 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29376157-fddc-4cd5-a5a6-7777874d4598" name="Default" comment="" />
+    <list default="true" id="29376157-fddc-4cd5-a5a6-7777874d4598" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classify/ClassifyByKmp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageCulturalServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageEducationServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageEntertainmentServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageFilmsServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageGameServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePagePhysicalServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageRecommendServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageScienceServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangePageSocietyServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ChangeUserInforServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/LogClickedLikeServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/LogClickedUnLikeServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ReadTimeServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/recommend/Filter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tool/GetTitleById.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tool/GetUserInfor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles-display.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles-recommend.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_cultural.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_education.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_entertainment.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_films.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_game.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_physical.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_science.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/articles_type_society.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/popuo-box.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/bg40.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/cultural.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/education.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/entertainment.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/films.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/game.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/headlogo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/headpicture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/like1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/like2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/physical.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/science.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/society.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/titlelike1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/titlelike2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/titleunlike1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/titleunlike2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/unlike1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/images/unlike2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.magnific-popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/keyword.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/my.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/type.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RecommendSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/RecommendSystem_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18147872-d479-40b5-9e5e-689ade982579.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/18147872-d479-40b5-9e5e-689ade982579.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_17.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/ICTCLAS50.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/DAO/LogItemServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/DAO/UserServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/DAO/UserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/DAO/loginServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/DAO/loginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/entity/User.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/DB_io.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/DB_io.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/Similarity$1.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/Similarity$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/Similarity.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/recommend/Similarity.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/tool/GetJsonText.class" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/classes/tool/GetJsonText.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/lib/je-analysis-1.5.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/WEB-INF/lib/lucene-core-2.9.2-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/articles-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/articles-list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/articles-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/contact.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/css/main5152.css" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/css/main5152.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/elements.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/faq.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/full-width.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/green-skin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/home-categories-articles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/home-categories-description.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/images/favicon.png" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/images/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/images/logo.png" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/index-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/logout.jsp" afterPath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/logout.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RecommendSystem_war_exploded/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/DAO/LogItemServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/DAO/UserServlet.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/DAO/UserServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/DAO/loginServlet.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/DAO/loginServlet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/entity/User.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/DB_io.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/DB_io.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/Similarity$1.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/Similarity$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/Similarity.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/recommend/Similarity.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecommendSystem/tool/GetJsonText.class" afterPath="$PROJECT_DIR$/out/production/RecommendSystem/tool/GetJsonText.class" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ChangePageServlet.java" afterPath="$PROJECT_DIR$/src/DAO/ChangePageServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/LogItemServlet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/UserServlet.java" afterPath="$PROJECT_DIR$/src/DAO/UserServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/loginServlet.java" afterPath="$PROJECT_DIR$/src/DAO/loginServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/entity/User.java" afterPath="$PROJECT_DIR$/src/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/recommend/DB_io.java" afterPath="$PROJECT_DIR$/src/recommend/DB_io.java" />
+      <change beforePath="$PROJECT_DIR$/src/recommend/Similarity.java" afterPath="$PROJECT_DIR$/src/recommend/Similarity.java" />
+      <change beforePath="$PROJECT_DIR$/src/tool/GetJsonText.java" afterPath="$PROJECT_DIR$/src/tool/GetJsonText.java" />
+      <change beforePath="$PROJECT_DIR$/web/ICTCLAS50.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/je-analysis-1.5.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/lucene-core-2.9.2-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/articles-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/articles-list.jsp" afterPath="$PROJECT_DIR$/web/articles-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/contact.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/main5152.css" afterPath="$PROJECT_DIR$/web/css/main5152.css" />
+      <change beforePath="$PROJECT_DIR$/web/elements.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/faq.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/full-width.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/green-skin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/home-categories-articles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/home-categories-description.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/images/favicon.png" afterPath="$PROJECT_DIR$/web/images/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/web/images/logo.png" afterPath="$PROJECT_DIR$/web/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/web/index-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/logout.jsp" afterPath="$PROJECT_DIR$/web/logout.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/regist.html" afterPath="$PROJECT_DIR$/web/regist.html" />
+      <change beforePath="$PROJECT_DIR$/web/style.css" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,27 +177,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="recommend: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recommend@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recommend: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="taste_item_similarity: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recommend@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recommend: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="taste_preferences: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recommend@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recommend: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -74,40 +185,59 @@
       <file leaf-file-name="articles-list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/articles-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="130" selection-end-column="7" />
+            <state relative-caret-position="452">
+              <caret line="144" column="101" lean-forward="false" selection-start-line="144" selection-start-column="101" selection-end-line="144" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Similarity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/recommend/Similarity.java">
+      <file leaf-file-name="articles-display.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/articles-display.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18147872-d479-40b5-9e5e-689ade982579/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taste_item_similarity" pinned="false" current-in-tab="false">
-        <entry file="das://table:/8d7d9729/18147872-d479-40b5-9e5e-689ade982579/recommend.taste_item_similarity">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="articles_type_physical.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/articles_type_physical.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles_type_science.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/articles_type_science.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles_type_society.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/articles_type_society.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-508">
+              <caret line="112" column="70" lean-forward="false" selection-start-line="112" selection-start-column="70" selection-end-line="112" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadTimeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/ReadTimeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,31 +245,56 @@
       <file leaf-file-name="DB_io.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recommend/DB_io.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="59" />
+            <state relative-caret-position="178">
+              <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1523017984858" expanded="true" signature="445:502" ph="select disti... taste_preferences" />
-                <marker date="1523017984858" expanded="true" signature="445:509" ph="select disti... article" />
-                <marker date="1523017984858" expanded="true" signature="1012:1045" ph="delete from taste_item_similarity... " />
-                <marker date="1523017984858" expanded="true" signature="1613:1660" ph="insert into taste_item_similarity... " />
-                <marker date="1523017984858" expanded="true" signature="1613:1661" ph="insert into taste_item_similarity... " />
+                <marker date="1523447877239" expanded="true" signature="471:527" ph="select * fro... readtime" />
+                <marker date="1523447877239" expanded="true" signature="972:1008" ph="insert into readtime... " />
+                <marker date="1523447877239" expanded="true" signature="1555:1619" ph="update readtime... " />
+                <marker date="1523447877239" expanded="true" signature="2137:2194" ph="select disti... taste_preferences" />
+                <marker date="1523447877239" expanded="true" signature="2137:2201" ph="select disti... article" />
+                <marker date="1523447877239" expanded="true" signature="2704:2737" ph="delete from taste_item_similarity... " />
+                <marker date="1523447877239" expanded="true" signature="3305:3352" ph="insert into taste_item_similarity... " />
+                <marker date="1523447877239" expanded="true" signature="3305:3353" ph="insert into taste_item_similarity... " />
+                <marker date="1523447877239" expanded="true" signature="3919:3984" ph="select * fro... taste_preferences" />
+                <marker date="1523447877239" expanded="true" signature="4335:4376" ph="insert into taste_preferences... " />
+                <marker date="1523447877239" expanded="true" signature="4831:4868" ph="select * fro... user" />
+                <marker date="1523447877239" expanded="true" signature="5370:5430" ph="select * fro... article_like" />
+                <marker date="1523447877239" expanded="true" signature="5882:5918" ph="insert into article_like... " />
+                <marker date="1523447877239" expanded="true" signature="6276:6334" ph="delete from article_like... " />
+                <marker date="1523447877239" expanded="true" signature="6819:6879" ph="select * fro... article_hate" />
+                <marker date="1523447877239" expanded="true" signature="7331:7367" ph="insert into article_hate... " />
+                <marker date="1523447877239" expanded="true" signature="7792:7828" ph="insert into article_type... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogItemServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/LogItemServlet.java">
+      <file leaf-file-name="Similarity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/recommend/Similarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-              <folding>
-                <marker date="1522991577460" expanded="true" signature="953:990" ph="select * fro... user" />
-                <marker date="1522991577460" expanded="true" signature="1379:1428" ph="select * fro... taste_preferences" />
-                <marker date="1522991577460" expanded="true" signature="1379:1444" ph="select * fro... taste_preferences" />
-                <marker date="1522991577460" expanded="true" signature="1835:1876" ph="insert into taste_preferences... " />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8d7d9729/18147872-d479-40b5-9e5e-689ade982579/recommend.user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18147872-d479-40b5-9e5e-689ade982579/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +312,24 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>single</find>
+      <find>ClickedArticle</find>
+      <find />
+      <find>body</find>
+      <find>userid</find>
+      <find>username</find>
+      <find>STYLE</find>
+      <find>KMPSearchs</find>
+      <find>index</find>
+      <find>bg</find>
+      <find>top-content</find>
+      <find>back</find>
+      <find>left-w3</find>
+      <find>nth-child</find>
+      <find>left-w3ls</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -167,33 +339,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/articles-list.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/480eecea-4a67-418d-957a-18f4d9b8e022/console.sql" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/index-2.html" />
-        <option value="$PROJECT_DIR$/src/DAO/ChangePageServlet.java" />
-        <option value="$PROJECT_DIR$/src/TFIDF/Log.java" />
-        <option value="$PROJECT_DIR$/src/TFIDF/Main.java" />
-        <option value="$PROJECT_DIR$/src/TFIDF/ReadFiles.java" />
-        <option value="$PROJECT_DIR$/src/NewsClassify/Word.java" />
         <option value="$PROJECT_DIR$/src/NewsClassify/NewsClassifyTool.java" />
-        <option value="$PROJECT_DIR$/src/tool/GetJsonText.java" />
         <option value="$PROJECT_DIR$/src/NewsClassify/Client.java" />
         <option value="$PROJECT_DIR$/src/NewsClassify/ICTCLAS50.java" />
-        <option value="$PROJECT_DIR$/web/regist.html" />
         <option value="$PROJECT_DIR$/web/login.html" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/DAO/loginServlet.java" />
-        <option value="$PROJECT_DIR$/web/logout.jsp" />
-        <option value="$PROJECT_DIR$/src/DAO/UserServlet.java" />
-        <option value="$PROJECT_DIR$/src/DAO/LogItemServlet.java" />
         <option value="$PROJECT_DIR$/src/recommend/LogLikelihoodSimilarity.java" />
-        <option value="$PROJECT_DIR$/web/articles-list.jsp" />
-        <option value="$PROJECT_DIR$/src/recommend/Similarity.java" />
+        <option value="$PROJECT_DIR$/src/tool/GetTitleById.java" />
+        <option value="$PROJECT_DIR$/src/DAO/loginServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ReadTimeServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/LogItemServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/LogClickedUnLikeServlet.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/src/recommend/DB_io.java" />
+        <option value="$PROJECT_DIR$/web/my.html" />
+        <option value="$PROJECT_DIR$/web/css/popuo-box.css" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageCulturalServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageEducationServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageEntertainmentServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageFilmsServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageGameServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePagePhysicalServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageScienceServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/LogClickedLikeServlet.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageSocietyServlet.java" />
+        <option value="$PROJECT_DIR$/src/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/DAO/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/src/tool/GetJsonText.java" />
+        <option value="$PROJECT_DIR$/src/Classify/ClassifyByKmp.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangePageRecommendServlet.java" />
+        <option value="$PROJECT_DIR$/src/tool/GetUserInfor.java" />
+        <option value="$PROJECT_DIR$/src/recommend/Filter.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ChangeUserInforServlet.java" />
+        <option value="$PROJECT_DIR$/web/css/main5152.css" />
+        <option value="$PROJECT_DIR$/web/articles-display.jsp" />
+        <option value="$PROJECT_DIR$/web/my.jsp" />
+        <option value="$PROJECT_DIR$/web/logout.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/regist.html" />
+        <option value="$PROJECT_DIR$/web/articles-list.jsp" />
+        <option value="$PROJECT_DIR$/web/articles-recommend.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/18147872-d479-40b5-9e5e-689ade982579/console.sql" />
+        <option value="$PROJECT_DIR$/web/articles_type_films.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_cultural.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_education.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_entertainment.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_game.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_physical.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_science.jsp" />
+        <option value="$PROJECT_DIR$/web/articles_type_society.jsp" />
+        <option value="$PROJECT_DIR$/src/recommend/Similarity.java" />
       </list>
     </option>
   </component>
@@ -210,11 +406,13 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="width" value="1293" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-22" />
+    <option name="y" value="55" />
+    <option name="width" value="1081" />
+    <option name="height" value="456" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -230,10 +428,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,44 +444,41 @@
             <path>
               <item name="RecommendSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecommendSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="RecommendSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-5.1.17" type="70bed36:NamedLibraryElementNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-examples-0.13.0-job.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="project.structure.side.proportion" value="0.28965518" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\IdeaProjects\RecommendSystem\web" />
-      <recent name="G:\IdeaProjects\RecommendSystem\src\NewsClassify" />
-      <recent name="G:\IdeaProjects\RecommendSystem\web\WEB-INF\lib" />
-      <recent name="G:\IdeaProjects\RecommendSystem\web\js" />
-      <recent name="G:\IdeaProjects\RecommendSystem\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\IdeaProjects\RecommendSystem\web" />
       <recent name="G:\IdeaProjects\RecommendSystem\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DAO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IdeaProjects\RecommendSystem\web\images" />
+      <recent name="G:\IdeaProjects\RecommendSystem\web" />
+      <recent name="G:\IdeaProjects\RecommendSystem\web\css" />
+      <recent name="G:\IdeaProjects\RecommendSystem\web\js" />
+      <recent name="G:\IdeaProjects\RecommendSystem\src\Classify" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Similarity">
+  <component name="RunManager" selected="Tomcat Server.Tomcat9">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -309,8 +501,47 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewsClassify.Client" />
+    <configuration name="ClassifyByKmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classify.ClassifyByKmp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RecommendSystem" />
+      <envs />
+    </configuration>
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recommend.Filter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RecommendSystem" />
+      <envs />
+    </configuration>
+    <configuration name="GetJsonText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tool.GetJsonText" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RecommendSystem" />
+      <envs />
+    </configuration>
+    <configuration name="GetUserInfor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tool.GetUserInfor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -427,9 +658,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="RecommendSystem:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -444,15 +673,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat9" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Similarity" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Similarity" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClassifyByKmp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GetJsonText" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GetUserInfor" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Filter" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Similarity" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Filter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GetUserInfor" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ClassifyByKmp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GetJsonText" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Similarity" />
       </list>
     </recent_temporary>
   </component>
@@ -462,39 +697,48 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="0" width="1293" height="1004" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34777227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313679" sideWeight="0.17437145" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3313679" sideWeight="0.8256285" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29268292" sideWeight="0.17923763" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28061637" sideWeight="0.80246913" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28061637" sideWeight="0.19753087" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23925385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2118003" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43396226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30139372" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17667238" sideWeight="0.8207624" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1406518" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.7978437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19440243" sideWeight="0.20215634" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3100511" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27712265" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31096563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,96 +749,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DAO/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/GetJsonText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1522420085513" expanded="true" signature="3743:3806" ph="insert into article... " />
-            <marker date="1522420085513" expanded="true" signature="4736:4778" ph="select * fro... article" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/images/headlogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/NewsList.java">
+    <entry file="file://$PROJECT_DIR$/web/my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/images/bg40.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5624">
-          <caret line="296" column="10" lean-forward="false" selection-start-line="296" selection-start-column="10" selection-end-line="296" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/lib/tool/page.java" />
-    <entry file="file://$PROJECT_DIR$/src/tool/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/NewsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/articles-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/custom5152.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.3.1.min.js">
+    <entry file="file://$PROJECT_DIR$/web/css/responsive5152.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -602,197 +785,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/480eecea-4a67-418d-957a-18f4d9b8e022/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/backgrounds/1@2x.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.17.jar/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.class" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/assets/img/backgrounds/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/blue-skin5152.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="17">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="137" column="69" lean-forward="true" selection-start-line="137" selection-start-column="69" selection-end-line="137" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TFIDF/Log.java" />
-    <entry file="file://$PROJECT_DIR$/src/TFIDF/Main.java" />
-    <entry file="jar://$USER_HOME$/Desktop/服务外包/je-analysis-1.5.3.jar!/jeasy/analysis/MMAnalyzer.class" />
-    <entry file="file://$PROJECT_DIR$/src/TFIDF/ReadFiles.java" />
-    <entry file="file://$PROJECT_DIR$/src/NewsClassify/News.java" />
-    <entry file="file://$PROJECT_DIR$/src/NewsClassify/Word.java" />
-    <entry file="file://$PROJECT_DIR$/src/NewsClassify/NewsClassifyTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/NewsClassify/ICTCLAS50.java" />
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewsClassify/Client.java" />
-    <entry file="file://$PROJECT_DIR$/web/login.html">
+    <entry file="file://$PROJECT_DIR$/web/css/custom5152.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="224" column="55" lean-forward="true" selection-start-line="224" selection-start-column="55" selection-end-line="224" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/LogServlet.java" />
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/ChangePageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="42" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/loginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/GetJsonText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="109" column="48" lean-forward="false" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="48" />
+        <state relative-caret-position="81">
+          <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
           <folding>
-            <marker date="1522420085513" expanded="true" signature="3743:3806" ph="insert into article... " />
-            <marker date="1522420085513" expanded="true" signature="4736:4778" ph="select * fro... article" />
+            <marker date="1523180440347" expanded="true" signature="1701:1738" ph="select * fro... user" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.17.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.17.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.17.jar!/com/mysql/jdbc/ResultSetImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3841" column="0" lean-forward="false" selection-start-line="3841" selection-start-column="0" selection-end-line="3841" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/function/ToLongFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/apache-mahout-distribution-0.13.0/mahout-mr-0.13.0.jar!/org/apache/mahout/cf/taste/similarity/ItemSimilarity.class" />
-    <entry file="das://table:/8d7d9729/18147872-d479-40b5-9e5e-689ade982579/recommend.taste_item_similarity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/recommend/DB_io.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1523017984858" expanded="true" signature="445:502" ph="select disti... taste_preferences" />
-            <marker date="1523017984858" expanded="true" signature="445:509" ph="select disti... article" />
-            <marker date="1523017984858" expanded="true" signature="1012:1045" ph="delete from taste_item_similarity... " />
-            <marker date="1523017984858" expanded="true" signature="1613:1660" ph="insert into taste_item_similarity... " />
-            <marker date="1523017984858" expanded="true" signature="1613:1661" ph="insert into taste_item_similarity... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/LogItemServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1522991577460" expanded="true" signature="953:990" ph="select * fro... user" />
-            <marker date="1522991577460" expanded="true" signature="1379:1428" ph="select * fro... taste_preferences" />
-            <marker date="1522991577460" expanded="true" signature="1379:1444" ph="select * fro... taste_preferences" />
-            <marker date="1522991577460" expanded="true" signature="1835:1876" ph="insert into taste_preferences... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18147872-d479-40b5-9e5e-689ade982579/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="57">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/8d7d9729/18147872-d479-40b5-9e5e-689ade982579/recommend.taste_preferences">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/DAO/ChangePageSocietyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#935#936#0" expanded="false" />
+            <element signature="e#963#964#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/NewsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ChangePageRecommendServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ChangePageCulturalServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/LogClickedLikeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <marker date="1523508807521" expanded="true" signature="2391:2418" ph="select count... user" />
+            <marker date="1523508807521" expanded="true" signature="2646:2690" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classify/ClassifyByKmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="156" column="11" lean-forward="false" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#339#340#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/GetTitleById.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1523074413463" expanded="true" signature="369:407" ph="select title... article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/education.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/cultural.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main5152.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="149" column="35" lean-forward="true" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ChangeUserInforServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="98" column="36" lean-forward="false" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding>
+            <marker date="1523539211679" expanded="true" signature="2646:2775" ph="update user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recommend/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <marker date="1523538816912" expanded="true" signature="367:423" ph="select * fro... readtime" />
+            <marker date="1523538816912" expanded="true" signature="1455:1515" ph="select * fro... article_hate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/titlelike2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/titlelike1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/keyword.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/GetUserInfor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1523536610164" expanded="true" signature="398:435" ph="select * fro... user" />
+            <marker date="1523536610164" expanded="true" signature="1420:1464" ph="select * fro... article_type" />
+            <marker date="1523536610164" expanded="true" signature="2129:2173" ph="select * fro... article_like" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/my.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="105" column="48" lean-forward="true" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_films.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="112" column="86" lean-forward="false" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles-recommend.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="122" column="38" lean-forward="true" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_cultural.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_education.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_entertainment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_game.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_physical.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_science.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="112" column="84" lean-forward="false" selection-start-line="112" selection-start-column="84" selection-end-line="112" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/GetJsonText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="198" column="48" lean-forward="false" selection-start-line="198" selection-start-column="36" selection-end-line="198" selection-end-column="48" />
+          <folding>
+            <marker date="1523516487040" expanded="true" signature="4204:4267" ph="insert into article... " />
+            <marker date="1523516487040" expanded="true" signature="5216:5258" ph="select * fro... article" />
+            <marker date="1523516487040" expanded="true" signature="5954:5988" ph="select * fro... article" />
+            <marker date="1523516487040" expanded="true" signature="6694:6735" ph="select * fro... article_type" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles_type_society.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508">
+          <caret line="112" column="70" lean-forward="false" selection-start-line="112" selection-start-column="70" selection-end-line="112" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="144" column="101" lean-forward="false" selection-start-line="144" selection-start-column="101" selection-end-line="144" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,21 +1127,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/articles-list.jsp">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18147872-d479-40b5-9e5e-689ade982579/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="130" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/articles-display.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ReadTimeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recommend/DB_io.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="132" column="10" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          <folding>
+            <marker date="1523447877239" expanded="true" signature="471:527" ph="select * fro... readtime" />
+            <marker date="1523447877239" expanded="true" signature="972:1008" ph="insert into readtime... " />
+            <marker date="1523447877239" expanded="true" signature="1555:1619" ph="update readtime... " />
+            <marker date="1523447877239" expanded="true" signature="2137:2194" ph="select disti... taste_preferences" />
+            <marker date="1523447877239" expanded="true" signature="2137:2201" ph="select disti... article" />
+            <marker date="1523447877239" expanded="true" signature="2704:2737" ph="delete from taste_item_similarity... " />
+            <marker date="1523447877239" expanded="true" signature="3305:3352" ph="insert into taste_item_similarity... " />
+            <marker date="1523447877239" expanded="true" signature="3305:3353" ph="insert into taste_item_similarity... " />
+            <marker date="1523447877239" expanded="true" signature="3919:3984" ph="select * fro... taste_preferences" />
+            <marker date="1523447877239" expanded="true" signature="4335:4376" ph="insert into taste_preferences... " />
+            <marker date="1523447877239" expanded="true" signature="4831:4868" ph="select * fro... user" />
+            <marker date="1523447877239" expanded="true" signature="5370:5430" ph="select * fro... article_like" />
+            <marker date="1523447877239" expanded="true" signature="5882:5918" ph="insert into article_like... " />
+            <marker date="1523447877239" expanded="true" signature="6276:6334" ph="delete from article_like... " />
+            <marker date="1523447877239" expanded="true" signature="6819:6879" ph="select * fro... article_hate" />
+            <marker date="1523447877239" expanded="true" signature="7331:7367" ph="insert into article_hate... " />
+            <marker date="1523447877239" expanded="true" signature="7792:7828" ph="insert into article_type... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recommend/Similarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +1195,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28965518" />
                 <option value="0.5" />
               </list>
             </option>
@@ -840,7 +1204,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (RecommendSystem)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -855,7 +1219,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28965518" />
               </list>
             </option>
           </splitter-proportions>
@@ -867,7 +1231,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28965518" />
               </list>
             </option>
           </splitter-proportions>

@@ -13,21 +13,20 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class GetJsonText {
 	
-	public static JSONObject getArticleFromNet(int d) {
-	//public static void main(String[] args){
+	public static JSONObject getArticleJsonObjFromNet(int d) {
 		// TODO Auto-generated method stub
 		JSONObject obj = null;
 		String JsonContent = "";
 		page ps = null;
 		String path = "http://www.textvalve.com/htdatasub/subscribe/articles/v2/article-"+d;
 		try {
-			
-
 			URL url = new URL(path);
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
@@ -48,16 +47,26 @@ public class GetJsonText {
 				JsonContent = sb.toString();
 				//System.out.println(JsonContent);	
 			}
-						
-			obj = JSONObject.fromObject(JsonContent);													
-			
+			obj = JSONObject.fromObject(JsonContent);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return obj;
 	}
-	
+
+	public static List<NewsList> getArticlesFromNet(int begin,int end){
+		List<NewsList> ls = new ArrayList<>();
+		for(int i = begin; i<end; i++){
+			JSONObject art =  getArticleJsonObjFromNet(i);
+			NewsList item = new NewsList();
+			item.setId(art.getJSONObject("data").getInt("id"));
+			item.setTitle(art.getJSONObject("data").getString("title"));
+			item.setImage_list(art.getJSONObject("data").getString("image_list"));
+			ls.add(item);
+		}
+		return ls;
+	}
 
 	public static JSONObject getArticleFromFile(){
 		
@@ -80,7 +89,7 @@ public class GetJsonText {
 	}
 	
 
-	public static void insertIntoDB(JSONObject obj){
+	public static void insertArticleObjIntoDB(JSONObject obj){
 		Connection conn1 = (Connection) DBUtil.getConnection();
 		int id = obj.getJSONObject("data").getInt("id");
 		String title = obj.getJSONObject("data").getString("title");
@@ -129,13 +138,14 @@ public class GetJsonText {
 			p.setString(17, feed_time);
 			p.setString(18, user_add_flag);
 			p.execute();
+			conn1.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 	}		
 	
-	public static List<NewsList> getArticleFromDB(int begin,int end){
+	public static List<NewsList> getArticlesFromDB(int begin,int end){
 		List<NewsList> news = new ArrayList<NewsList>();
 		Connection conn1 = (Connection) DBUtil.getConnection();
 		String sql = "select * from article where id>=? and id<?";
@@ -149,13 +159,74 @@ public class GetJsonText {
 				item.setId(rs.getInt("id"));
 				item.setTitle(rs.getString("title"));
 				item.setImage_list(rs.getString("image_list"));
+				item.setCrawl_time(rs.getLong("crawl_time"));
 				news.add(item);
 			}
+			conn1.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return news;	
 	}
-	
+
+	public static NewsList getNewsFromDB(int id){
+		NewsList item = new NewsList();
+		Connection conn1 = (Connection) DBUtil.getConnection();
+		String sql = "select * from article where id = ?";
+		try {
+			PreparedStatement ps = conn1.prepareStatement(sql);
+			ps.setInt(1, id);
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()){
+				item.setId(rs.getInt("id"));
+				item.setTitle(rs.getString("title"));
+				item.setImage_list(rs.getString("image_list"));
+				item.setContent(rs.getString("content"));
+				item.setCrawl_time(rs.getLong("crawl_time"));
+			}
+			conn1.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return item;
+	}
+
+	public static List<NewsList> getArticlesByTypeFromDB(int type,int howmany){
+		List<NewsList> news = new ArrayList<NewsList>();
+		Connection conn = (Connection) DBUtil.getConnection();
+		String sql = "select * from article_type where type = ?";
+		int d = 0;
+		try {
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setInt(1,type);
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()){
+				int item_id = rs.getInt("item_id");
+				NewsList ns = getNewsFromDB(item_id);
+				news.add(ns);
+				if(d>howmany){
+					break;
+				}
+				d++;
+			}
+			System.out.println(news.size()+":"+type);
+			conn.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return news;
+	}
+
+	public static String getTimeById(int id){
+		NewsList ns = getNewsFromDB(id);
+		long t = ns.getCrawl_time();
+		Date date = new Date(t);
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		String s = df.format(date.getTime());
+		return s;
+	}
+
 }

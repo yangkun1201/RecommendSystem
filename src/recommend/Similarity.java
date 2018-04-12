@@ -15,9 +15,14 @@ import org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarity;
 import org.apache.mahout.cf.taste.impl.similarity.jdbc.MySQLJDBCInMemoryItemSimilarity;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.recommender.ItemBasedRecommender;
+import org.apache.mahout.cf.taste.recommender.RecommendedItem;
 import org.apache.mahout.cf.taste.similarity.ItemSimilarity;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+
 
 public class Similarity {
     public static MysqlDataSource dataSource = new MysqlDataSource();
@@ -36,7 +41,7 @@ public class Similarity {
         userData = dataModelTemp.exportWithIDsOnly();
         dataModel = new GenericBooleanPrefDataModel(userData);
         similarity = new LogLikelihoodSimilarity(dataModel);
-        DB_io.deleteSimilarityIntoDb();
+        //DB_io.deleteSimilarityIntoDb();
     }
 
     private static void computeSimilarityMatrix(ItemSimilarity similarity, final long[] newsArray) {
@@ -66,15 +71,15 @@ public class Similarity {
         }
     }
 
-    public static void main(String[] args){
+    public static List<RecommendedItem> recommender(int userid,int howmany){
         long[] items = DB_io.getItemIdFromDB();
-
+        List<RecommendedItem> rm = null;
         try {
             init();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        computeSimilarityMatrix(similarity,items);
+       // computeSimilarityMatrix(similarity,items);
 
         DataModel dataModel = new MySQLBooleanPrefJDBCDataModel(dataSource);
         ItemSimilarity similarity = new MySQLJDBCInMemoryItemSimilarity(dataSource);
@@ -82,11 +87,12 @@ public class Similarity {
         ItemBasedRecommender recommender =  new GenericItemBasedRecommender(dataModel,similarity,candidateItemsStrategy,candidateItemsStrategy);
 
         try {
-            System.out.println(recommender.recommend(1,2));
+            rm = recommender.recommend(userid,howmany);
+           // System.out.println(rm);
         } catch (TasteException e) {
             e.printStackTrace();
         }
-
+        return rm;
     }
 
 
